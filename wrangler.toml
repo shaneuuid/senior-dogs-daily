@@ -1,0 +1,13 @@
+name = "senior-dogs-daily"
+main = "index.ts"
+compatibility_date = "2023-12-06"
+compatibility_flags = ["nodejs_compat"]
+
+# KV
+kv_namespaces = [
+  { binding = "KV_BOTS_SOCIAL_MEDIA_POSTER_POSTED_DOGS", id = "c7b4aba70b634487887f3efb40d1a034" }
+]
+
+# Triggers
+[triggers]
+crons = ["0 2,14,18,22 * * *"]
